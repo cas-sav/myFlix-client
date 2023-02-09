@@ -10,13 +10,15 @@ export const MainView = () => {
   useEffect(() => {
     fetch("https://movie-site.herokuapp.com/movies")
       .then((response) => response.json())
-      .then((data) => {
-        const moviesFromApi = data.movies.map((movie) => {
+      .then((movies) => {
+        const moviesFromApi = movies.map((movie) => {
           return {
             id: movie._id,
             title: movie.Title,
             image: ``,
-            director: movie.director.name?.[0]
+            description: movie.Description,
+            genre: movie.Genre?.Name,
+            director: movie.Director?.Name
           };
         });
 
