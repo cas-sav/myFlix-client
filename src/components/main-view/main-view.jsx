@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { MovieCard } from "../movie-card/movie-card.jsx";
 import { MovieView } from "../movie-view/movie-view.jsx";
+import { LoginView } from "../login-view/login-view";
 
 export const MainView = () => {
+<<<<<<< Updated upstream
   const [movies, setMovies] = useState([
     {
       id: 1,
@@ -33,8 +35,38 @@ export const MainView = () => {
     }
   ]);
 
+=======
+  const [movies, setMovies] = useState([]);
+>>>>>>> Stashed changes
   const [selectedMovie, setSelectedMovie] = useState(null);
+  const [user, setUser] = useState(null);
 
+<<<<<<< Updated upstream
+=======
+  useEffect(() => {
+    fetch("https://movie-site.herokuapp.com/movies")
+      .then((response) => response.json())
+      .then((movies) => {
+        const moviesFromApi = movies.map((movie) => {
+          return {
+            id: movie._id,
+            title: movie.Title,
+            image: ``,
+            description: movie.Description,
+            genre: movie.Genre?.Name,
+            director: movie.Director?.Name
+          };
+        });
+
+        setMovies(moviesFromApi);
+      });
+  }, []);
+
+  if (!user) {
+    return <LoginView />;
+  }
+
+>>>>>>> Stashed changes
   if (selectedMovie) {
     return (
       <MovieView movie={selectedMovie} onBackClick={() => setSelectedMovie(null)} />
