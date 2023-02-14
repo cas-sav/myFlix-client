@@ -31,7 +31,6 @@ export const MainView = () => {
             director: movie.Director?.Name
           };
         });
-
         setMovies(moviesFromApi);
       });
   }, [token]);
@@ -50,6 +49,25 @@ export const MainView = () => {
       </>
     );
   }
+
+  useEffect(() => {
+    fetch("https://movie-site.herokuapp.com/movies")
+      .then((response) => response.json())
+      .then((movies) => {
+        const moviesFromApi = movies.map((movie) => {
+          return {
+            id: movie._id,
+            title: movie.Title,
+            image: ``,
+            description: movie.Description,
+            genre: movie.Genre?.Name,
+            director: movie.Director?.Name
+          };
+        });
+
+        setMovies(moviesFromApi);
+      });
+  }, []);
 
   if (selectedMovie) {
     return (
