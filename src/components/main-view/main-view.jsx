@@ -4,8 +4,8 @@ import { MovieView } from "../movie-view/movie-view";
 import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
 import { NavigationBar } from "../navigation-bar/navigation-bar";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { ProfileView } from "../profile-view/profile-view";
+import { Row, Col } from "react-bootstrap";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 export const MainView = () => {
@@ -14,6 +14,8 @@ export const MainView = () => {
   const [user, setUser] = useState(storedUser ? storedUser : null);
   const [token, setToken] = useState(storedToken ? storedToken : null);
   const [movies, setMovies] = useState([]);
+
+
 
   useEffect(() => {
     if (!token) {
@@ -28,7 +30,7 @@ export const MainView = () => {
           return {
             id: movie._id,
             title: movie.Title,
-            image: ``,
+            image: movie.ImagePath,
             description: movie.Description,
             genre: movie.Genre?.Name,
             director: movie.Director?.Name
@@ -99,7 +101,20 @@ export const MainView = () => {
               </>
             }
           />
-
+          <Route
+            path="/profile"
+            element={
+              <>
+                {!user ? (
+                  <Navigate to="/login" replace />
+                ) : (
+                  <Col>
+                    <ProfileView user={user} movies={movies} />
+                  </Col>
+                )}
+              </>
+            }
+          />
           <Route
             path="/"
             element={
