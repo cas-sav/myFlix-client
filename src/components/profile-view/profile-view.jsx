@@ -6,8 +6,8 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 export const ProfileView = () => {
 
   const storedToken = localStorage.getItem("token");
-  //  const storedMovies = JSON.parse(localStorage.getItem("movies"))
-  //  const storedUser = localStorage.getItem("user");
+  const storedMovies = JSON.parse(localStorage.getItem("movies"))
+  const storedUser = localStorage.getItem("user");
 
 
   const [token] = useState(storedToken ? storedToken : null);
@@ -16,10 +16,10 @@ export const ProfileView = () => {
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
   const [birthday, setBirthday] = useState("");
-  // const [favoriteMovies, setFavoriteMovies] = useState([]);
+  const [favoriteMovies, setFavoriteMovies] = useState([]);
 
-  //const [allMovies] = useState(storedMovies ? storedMovies : movies);
-  // const [filteredMovies, setFilteredMovies] = useState([]);
+  const [allMovies] = useState(storedMovies ? storedMovies : movies);
+  const [filteredMovies, setFilteredMovies] = useState([]);
 
 
   // Show updated user on the profile
@@ -70,8 +70,8 @@ export const ProfileView = () => {
       </Row>
       <Row>
         <FavMovies
-        // user={user}
-        //movies={movies} 
+          user={user}
+          movies={movies}
         />
       </Row>
     </Container>
