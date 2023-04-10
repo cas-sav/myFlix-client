@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./movie-view.scss";
-import { FavMovies } from "./fav-movies";
+import { FavMovies } from "./../profile-view/fav-movies";
 
 
 export const MovieView = ({ movies, username, favoriteMovies }) => {
@@ -11,7 +11,7 @@ export const MovieView = ({ movies, username, favoriteMovies }) => {
   const storedUser = JSON.parse(localStorage.getItem("user"));
 
   const { movieId } = useParams();
-  const movies = movies.find((m) => m.id === movieId);
+  const movieS = movies.find((m) => m.id === movieId);
 
   const [movieExists, setMovieExists] = useState(false);
   const [disableRemove, setDisableRemove] = useState(true)
