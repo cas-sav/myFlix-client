@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Col } from "react-bootstrap";
 import { MovieCard } from "../movie-card/movie-card";
 
-export const FavoriteMovies = ({ user, movies }) => {
+export const FavMovies = ({ user, movies }) => {
   const storedToken = localStorage.getItem("token");
   const storedMovies = JSON.parse(localStorage.getItem("movies"))
   const storedUser = localStorage.getItem("user");
@@ -54,7 +54,7 @@ export const FavoriteMovies = ({ user, movies }) => {
 
   return (
     <>
-      <h4>Favorite movies:</h4>
+      <h3>Favorite Movies:</h3>
       {/* Display favorite movies */}
       {favMovies.length === 0 ?
         <span>No movies selected</span> : favMovies.map((movie) => (

@@ -11,7 +11,7 @@ export const MovieView = ({ movies, username, favoriteMovies }) => {
   const storedUser = JSON.parse(localStorage.getItem("user"));
 
   const { movieId } = useParams();
-  const movieS = movies.find((m) => m.id === movieId);
+  const movie = movies.find((m) => m.id === movieId);
 
   const [movieExists, setMovieExists] = useState(false);
   const [disableRemove, setDisableRemove] = useState(true)
@@ -95,45 +95,45 @@ export const MovieView = ({ movies, username, favoriteMovies }) => {
       </Row>
       <Row>
         <Col>
-          <span>Title: </span>
-          <span>{movie.title}</span>
+          <h2>Title: {movie.title}</h2>
         </Col>
       </Row>
       <Row>
         <Col>
-          <span>Description: </span>
-          <span>{movie.description}</span>
+          <h3>Description: </h3>
+          <p>{movie.description}</p>
         </Col>
       </Row>
       <Row>
         <Col>
-          <span>Genre: </span>
-          <span>{movie.genre}</span>
+          <h3>Genre: </h3>
+          <p>{movie.genre}</p>
         </Col>
       </Row>
       <Row>
         <Col>
-          <span>Director: </span>
-          <span>{movie.director}</span>
+          <h3>Director: </h3>
+          <p>{movie.director}</p>
         </Col>
       </Row>
       <Row>
         <Col>
           <Button
-            className="button-add-favorite"
+            className="button-favorite"
             onClick={addFavoriteMovie}
             disabled={movieExists}
           >
-            + Add to Favorites
+            FAVORITE
           </Button>
         </Col>
         <Col>
           <Button
+            className="button-unfavorite"
             variant="danger"
             onClick={removeFavoriteMovie}
             disabled={disableRemove}
           >
-            Remove from Favorites
+            UNFAVORITE
           </Button>
         </Col>
       </Row>

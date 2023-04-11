@@ -3,7 +3,7 @@ import { UpdateForm } from "./update-form";
 import { FavMovies } from "./fav-movies";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
-export const ProfileView = () => {
+export const ProfileView = ({ user, movies }) => {
 
   const storedToken = localStorage.getItem("token");
   const storedMovies = JSON.parse(localStorage.getItem("movies"))
@@ -50,7 +50,7 @@ export const ProfileView = () => {
           <Card>
             <Card.Body>
               <div>
-                <h4>User Details</h4>
+                <h3>User Details</h3>
                 <p>Username: {username}</p>
                 <p>Birthday: {birthday}</p>
                 <p>Email: {email}</p>
