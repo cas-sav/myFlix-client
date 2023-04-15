@@ -95,23 +95,27 @@ export const MovieView = ({ movies, username, favoriteMovies }) => {
       </Row>
       <Row>
         <Col>
+
           <h2>Title: {movie.title}</h2>
         </Col>
       </Row>
       <Row>
         <Col>
+
           <h3>Description: </h3>
           <p>{movie.description}</p>
         </Col>
       </Row>
       <Row>
         <Col>
+
           <h3>Genre: </h3>
           <p>{movie.genre}</p>
         </Col>
       </Row>
       <Row>
         <Col>
+
           <h3>Director: </h3>
           <p>{movie.director}</p>
         </Col>
@@ -142,6 +146,7 @@ export const MovieView = ({ movies, username, favoriteMovies }) => {
           <Link to={`/`}>
             <Button className="back-button">Back</Button>
           </Link>
+
         </Col>
       </Row>
     </Container>

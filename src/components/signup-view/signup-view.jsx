@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import { Button, Form } from "react-bootstrap";
 
 export const SignupView = () => {
@@ -76,9 +77,11 @@ export const SignupView = () => {
         />
       </Form.Group>
 
+
       <Button variant="primary" type="submit">
         Submit
       </Button>
+
     </Form>
   );
 };

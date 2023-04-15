@@ -30,18 +30,19 @@ export const MainView = () => {
           return {
             id: movie._id,
             title: movie.Title,
+
             image: movie.ImagePath,
             description: movie.Description,
             genre: movie.Genre?.Name,
             director: movie.Director?.Name
           };
         });
-
         setMovies(moviesFromApi);
       });
   }, [token]);
 
   return (
+
     <BrowserRouter>
       <NavigationBar
         user={user}
