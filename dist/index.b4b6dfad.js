@@ -2967,7 +2967,7 @@ $RefreshReg$(_c, "MyFlixApplication");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/main-view/main-view.jsx":"4gflv","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"jvdsa","react":"21dqq","react-bootstrap/Container":"hEdsw","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx","bootstrap/dist/css/bootstrap.min.css":"i5LP7"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/main-view/main-view.jsx":"4gflv","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"jvdsa","react-bootstrap/Container":"hEdsw","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx","bootstrap/dist/css/bootstrap.min.css":"i5LP7","react":"21dqq"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("2c52b6fbefb6d3ff");
 
@@ -27342,7 +27342,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"jvdsa","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","../navigation-bar/navigation-bar":"bsPVM","react-router-dom":"9xmpe","../profile-view/profile-view":"2vVqf","react-bootstrap":"3AD9A"}],"29ldx":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"jvdsa","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf","react-bootstrap":"3AD9A","react-router-dom":"9xmpe"}],"29ldx":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27593,7 +27593,7 @@ $RefreshReg$(_c, "MovieCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"jvdsa"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"jvdsa","react-router-dom":"9xmpe"}],"7wKI2":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -33305,7 +33305,7 @@ Dropdown.Toggle = (0, _dropdownToggleDefault.default);
 Dropdown.Item = (0, _dropdownItemDefault.default);
 exports.default = Dropdown;
 
-},{"dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/addEventListener":"c5x2p","react":"21dqq","uncontrollable":"hZZ1I","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useEventListener":"dBDI3","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"dX4vI","./DropdownMenu":"6fCTW","./DropdownToggle":"8iWIY","./DropdownItem":"hDAPz","./SelectableContext":"8zLqy","./DataKey":"9vwZh","./useWindow":"4AsJ2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"g5Sx6":[function(require,module,exports) {
+},{"dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/addEventListener":"c5x2p","react":"21dqq","uncontrollable":"b3yWY","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useEventListener":"dBDI3","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"dX4vI","./DropdownMenu":"6fCTW","./DropdownToggle":"8iWIY","./DropdownItem":"hDAPz","./SelectableContext":"8zLqy","./DataKey":"9vwZh","./useWindow":"4AsJ2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"g5Sx6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var toArray = Function.prototype.bind.call(Function.prototype.call, [].slice);
@@ -33314,78 +33314,7 @@ function qsa(element, selector) {
 }
 exports.default = qsa;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"hZZ1I":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "defaultKey", ()=>defaultKey);
-parcelHelpers.export(exports, "useUncontrolledProp", ()=>useUncontrolledProp);
-parcelHelpers.export(exports, "useUncontrolled", ()=>useUncontrolled);
-var _react = require("react");
-function _objectWithoutPropertiesLoose(source, excluded) {
-    if (source == null) return {};
-    var target = {};
-    var sourceKeys = Object.keys(source);
-    var key, i;
-    for(i = 0; i < sourceKeys.length; i++){
-        key = sourceKeys[i];
-        if (excluded.indexOf(key) >= 0) continue;
-        target[key] = source[key];
-    }
-    return target;
-}
-function _toPropertyKey(arg) {
-    var key = _toPrimitive(arg, "string");
-    return typeof key === "symbol" ? key : String(key);
-}
-function _toPrimitive(input, hint) {
-    if (typeof input !== "object" || input === null) return input;
-    var prim = input[Symbol.toPrimitive];
-    if (prim !== undefined) {
-        var res = prim.call(input, hint || "default");
-        if (typeof res !== "object") return res;
-        throw new TypeError("@@toPrimitive must return a primitive value.");
-    }
-    return (hint === "string" ? String : Number)(input);
-}
-function defaultKey(key) {
-    return "default" + key.charAt(0).toUpperCase() + key.substr(1);
-}
-function useUncontrolledProp(propValue, defaultValue, handler) {
-    const wasPropRef = (0, _react.useRef)(propValue !== undefined);
-    const [stateValue, setState] = (0, _react.useState)(defaultValue);
-    const isProp = propValue !== undefined;
-    const wasProp = wasPropRef.current;
-    wasPropRef.current = isProp;
-    /**
-   * If a prop switches from controlled to Uncontrolled
-   * reset its value to the defaultValue
-   */ if (!isProp && wasProp && stateValue !== defaultValue) setState(defaultValue);
-    return [
-        isProp ? propValue : stateValue,
-        (0, _react.useCallback)((value, ...args)=>{
-            if (handler) handler(value, ...args);
-            setState(value);
-        }, [
-            handler
-        ])
-    ];
-}
-function useUncontrolled(props, config) {
-    return Object.keys(config).reduce((result, fieldName)=>{
-        const _ref = result, _defaultKey = defaultKey(fieldName), { [_defaultKey]: defaultValue , [fieldName]: propsValue  } = _ref, rest = _objectWithoutPropertiesLoose(_ref, [
-            _defaultKey,
-            fieldName
-        ].map(_toPropertyKey));
-        const handlerName = config[fieldName];
-        const [value, handler] = useUncontrolledProp(propsValue, defaultValue, props[handlerName]);
-        return Object.assign({}, rest, {
-            [fieldName]: value,
-            [handlerName]: handler
-        });
-    }, props);
-}
-
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"3Y4bz":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"3Y4bz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -34125,7 +34054,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getUAString() {
     var uaData = navigator.userAgentData;
-    if (uaData != null && uaData.brands && Array.isArray(uaData.brands)) return uaData.brands.map(function(item) {
+    if (uaData != null && uaData.brands) return uaData.brands.map(function(item) {
         return item.brand + "/" + item.version;
     }).join(" ");
     return navigator.userAgent;
@@ -34354,8 +34283,9 @@ var unsetSides = {
 }; // Round the offsets to the nearest suitable subpixel based on the DPR.
 // Zooming can change the DPR, but it seems to report a value that will
 // cleanly divide the values into the appropriate subpixels.
-function roundOffsetsByDPR(_ref, win) {
+function roundOffsetsByDPR(_ref) {
     var x = _ref.x, y = _ref.y;
+    var win = window;
     var dpr = win.devicePixelRatio || 1;
     return {
         x: (0, _mathJs.round)(x * dpr) / dpr || 0,
@@ -34411,7 +34341,7 @@ function mapToStyles(_ref2) {
     var _ref4 = roundOffsets === true ? roundOffsetsByDPR({
         x: x,
         y: y
-    }, (0, _getWindowJsDefault.default)(popper)) : {
+    }) : {
         x: x,
         y: y
     };
@@ -36161,81 +36091,44 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 // SSR case multiple copies of React Aria is not supported.
 const $704cf1d3b684cc5c$var$defaultContext = {
     prefix: String(Math.round(Math.random() * 10000000000)),
-    current: 0,
-    isSSR: false
+    current: 0
 };
 const $704cf1d3b684cc5c$var$SSRContext = (0, _reactDefault.default).createContext($704cf1d3b684cc5c$var$defaultContext);
 function $704cf1d3b684cc5c$export$9f8ac96af4b1b2ae(props) {
     let cur = (0, _react.useContext)($704cf1d3b684cc5c$var$SSRContext);
-    let counter = $704cf1d3b684cc5c$var$useCounter(cur === $704cf1d3b684cc5c$var$defaultContext);
-    let [isSSR, setIsSSR] = (0, _react.useState)(true);
     let value = (0, _react.useMemo)(()=>({
             // If this is the first SSRProvider, start with an empty string prefix, otherwise
             // append and increment the counter.
-            prefix: cur === $704cf1d3b684cc5c$var$defaultContext ? "" : `${cur.prefix}-${counter}`,
-            current: 0,
-            isSSR: isSSR
+            prefix: cur === $704cf1d3b684cc5c$var$defaultContext ? "" : `${cur.prefix}-${++cur.current}`,
+            current: 0
         }), [
-        cur,
-        counter,
-        isSSR
+        cur
     ]);
-    // If on the client, and the component was initially server rendered,
-    // then schedule a layout effect to update the component after hydration.
-    if (typeof window !== "undefined") (0, _react.useLayoutEffect)(()=>{
-        setIsSSR(false);
-    }, []);
     return (0, _reactDefault.default).createElement($704cf1d3b684cc5c$var$SSRContext.Provider, {
         value: value
     }, props.children);
 }
 let $704cf1d3b684cc5c$var$canUseDOM = Boolean(typeof window !== "undefined" && window.document && window.document.createElement);
-let $704cf1d3b684cc5c$var$componentIds = new WeakMap();
-function $704cf1d3b684cc5c$var$useCounter(isDisabled = false) {
-    let ctx = (0, _react.useContext)($704cf1d3b684cc5c$var$SSRContext);
-    let ref = (0, _react.useRef)(null);
-    if (ref.current === null && !isDisabled) {
-        var _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED_ReactCurrentOwner;
-        // In strict mode, React renders components twice, and the ref will be reset to null on the second render.
-        // This means our id counter will be incremented twice instead of once. This is a problem because on the
-        // server, components are only rendered once and so ids generated on the server won't match the client.
-        // In React 18, useId was introduced to solve this, but it is not available in older versions. So to solve this
-        // we need to use some React internals to access the underlying Fiber instance, which is stable between renders.
-        // This is exposed as ReactCurrentOwner in development, which is all we need since StrictMode only runs in development.
-        // To ensure that we only increment the global counter once, we store the starting id for this component in
-        // a weak map associated with the Fiber. On the second render, we reset the global counter to this value.
-        // Since React runs the second render immediately after the first, this is safe.
-        // @ts-ignore
-        let currentOwner = (_React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = (0, _reactDefault.default).__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED) === null || _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED === void 0 ? void 0 : (_React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED_ReactCurrentOwner = _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner) === null || _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED_ReactCurrentOwner === void 0 ? void 0 : _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED_ReactCurrentOwner.current;
-        if (currentOwner) {
-            let prevComponentValue = $704cf1d3b684cc5c$var$componentIds.get(currentOwner);
-            if (prevComponentValue == null) $704cf1d3b684cc5c$var$componentIds.set(currentOwner, {
-                id: ctx.current,
-                state: currentOwner.memoizedState
-            });
-            else if (currentOwner.memoizedState !== prevComponentValue.state) {
-                // On the second render, the memoizedState gets reset by React.
-                // Reset the counter, and remove from the weak map so we don't
-                // do this for subsequent useId calls.
-                ctx.current = prevComponentValue.id;
-                $704cf1d3b684cc5c$var$componentIds.delete(currentOwner);
-            }
-        }
-        ref.current = ++ctx.current;
-    }
-    return ref.current;
-}
 function $704cf1d3b684cc5c$export$619500959fc48b26(defaultId) {
     let ctx = (0, _react.useContext)($704cf1d3b684cc5c$var$SSRContext);
     // If we are rendering in a non-DOM environment, and there's no SSRProvider,
     // provide a warning to hint to the developer to add one.
     if (ctx === $704cf1d3b684cc5c$var$defaultContext && !$704cf1d3b684cc5c$var$canUseDOM) console.warn("When server rendering, you must wrap your application in an <SSRProvider> to ensure consistent ids are generated between the client and server.");
-    let counter = $704cf1d3b684cc5c$var$useCounter(!!defaultId);
-    return defaultId || `react-aria${ctx.prefix}-${counter}`;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    return (0, _react.useMemo)(()=>defaultId || `react-aria${ctx.prefix}-${++ctx.current}`, [
+        defaultId
+    ]);
 }
 function $704cf1d3b684cc5c$export$535bd6ca7f90a273() {
     let cur = (0, _react.useContext)($704cf1d3b684cc5c$var$SSRContext);
-    return cur.isSSR;
+    let isInSSRContext = cur !== $704cf1d3b684cc5c$var$defaultContext;
+    let [isSSR, setIsSSR] = (0, _react.useState)(isInSSRContext);
+    // If on the client, and the component was initially server rendered,
+    // then schedule a layout effect to update the component after hydration.
+    if (typeof window !== "undefined" && isInSSRContext) (0, _react.useLayoutEffect)(()=>{
+        setIsSSR(false);
+    }, []);
+    return isSSR;
 }
 
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"hDAPz":[function(require,module,exports) {
@@ -37948,7 +37841,6 @@ var _useWaitForDOMRefDefault = parcelHelpers.interopDefault(_useWaitForDOMRef);
 var _useWindow = require("./useWindow");
 var _useWindowDefault = parcelHelpers.interopDefault(_useWindow);
 var _imperativeTransition = require("./ImperativeTransition");
-var _utils = require("./utils");
 var _jsxRuntime = require("react/jsx-runtime");
 const _excluded = [
     "show",
@@ -38097,7 +37989,7 @@ const Modal = /*#__PURE__*/ (0, _react.forwardRef)((_ref, ref)=>{
         if (backdrop === true) onHide();
     });
     const handleDocumentKeyDown = (0, _useEventCallbackDefault.default)((e)=>{
-        if (keyboard && (0, _utils.isEscKey)(e) && modal.isTopModal()) {
+        if (keyboard && e.keyCode === 27 && modal.isTopModal()) {
             onEscapeKeyDown == null || onEscapeKeyDown(e);
             if (!e.defaultPrevented) onHide();
         }
@@ -38165,7 +38057,7 @@ exports.default = Object.assign(Modal, {
     Manager: (0, _modalManagerDefault.default)
 });
 
-},{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"iK6A1","@restart/hooks/useWillUnmount":"2OOXI","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useEventCallback":"7ONdq","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","./ImperativeTransition":"j0Jao","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx","./utils":"2Fmci"}],"5ShA6":[function(require,module,exports) {
+},{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"iK6A1","@restart/hooks/useWillUnmount":"2OOXI","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useEventCallback":"7ONdq","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","./ImperativeTransition":"j0Jao","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"5ShA6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _ownerDocument = require("./ownerDocument");
@@ -38438,15 +38330,7 @@ function NoopTransition({ children , in: inProp , onExited , mountOnEnter , unmo
 }
 exports.default = NoopTransition;
 
-},{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"2Fmci":[function(require,module,exports) {
-/* eslint-disable import/prefer-default-export */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "isEscKey", ()=>isEscKey);
-function isEscKey(e) {
-    return e.code === "Escape" || e.keyCode === 27;
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"lr1Yp":[function(require,module,exports) {
+},{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"lr1Yp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getSharedManager", ()=>getSharedManager);
@@ -39666,7 +39550,7 @@ var _useEventCallback = require("@restart/hooks/useEventCallback");
 var _useEventCallbackDefault = parcelHelpers.interopDefault(_useEventCallback);
 var _useClickOutside = require("./useClickOutside");
 var _useClickOutsideDefault = parcelHelpers.interopDefault(_useClickOutside);
-var _utils = require("./utils");
+const escapeKeyCode = 27;
 const noop = ()=>{};
 /**
  * The `useRootClose` hook registers your callback on the document
@@ -39686,7 +39570,7 @@ const noop = ()=>{};
         clickTrigger
     });
     const handleKeyUp = (0, _useEventCallbackDefault.default)((e)=>{
-        if ((0, _utils.isEscKey)(e)) onClose(e);
+        if (e.keyCode === escapeKeyCode) onClose(e);
     });
     (0, _react.useEffect)(()=>{
         if (disabled || ref == null) return undefined;
@@ -39713,7 +39597,7 @@ const noop = ()=>{};
 }
 exports.default = useRootClose;
 
-},{"dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./useClickOutside":"ed4Oi","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx","./utils":"2Fmci"}],"iHgTL":[function(require,module,exports) {
+},{"dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./useClickOutside":"ed4Oi","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"iHgTL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40625,7 +40509,7 @@ const Tabs = (props)=>{
 Tabs.Panel = (0, _tabPanelDefault.default);
 exports.default = Tabs;
 
-},{"react":"21dqq","uncontrollable":"hZZ1I","./ssr":"eaHes","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./TabPanel":"4REJB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"4REJB":[function(require,module,exports) {
+},{"react":"21dqq","uncontrollable":"b3yWY","./ssr":"eaHes","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./TabPanel":"4REJB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"29ldx"}],"4REJB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useTabPanel", ()=>useTabPanel);
