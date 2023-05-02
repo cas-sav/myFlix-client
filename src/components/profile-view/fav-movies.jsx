@@ -20,7 +20,7 @@ export const FavMovies = ({ user, movies }) => {
 
   // Show updated user on the profile
   const getUser = (token) => {
-    fetch(`https://movie-api-8cvs.onrender.com/profiles/${user.Username}`, {
+    fetch(`https://movie-site.herokuapp.com/profiles/${user.Username}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     }).then(response => response.json())
