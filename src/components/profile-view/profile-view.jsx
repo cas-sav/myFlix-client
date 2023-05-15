@@ -34,7 +34,7 @@ export const ProfileView = ({ user, movies }) => {
         setEmail(response.Email);
         setPassword(response.Password);
         setBirthday(response.Birthday);
-        //setFavoriteMovies(response.FavoriteMovies)
+        setFavoriteMovies(response.FavoriteMovies)
       })
   }
   console.log("userFavMov", favoriteMovies)
