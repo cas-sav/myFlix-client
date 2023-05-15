@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import { Button, Form } from "react-bootstrap";
 
 export const SignupView = () => {
@@ -72,7 +73,9 @@ export const SignupView = () => {
           required
         />
       </Form.Group>
+
       <Button type="submit">Submit</Button>
+
     </Form>
   );
 };

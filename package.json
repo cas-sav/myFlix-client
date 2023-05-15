@@ -17,6 +17,7 @@
   "homepage": "https://github.com/cas-sav/myFlix-client#readme",
   "dependencies": {
     "bootstrap": "^5.2.3",
+
     "modules": "^0.4.0",
     "node": "^19.8.1",
     "prop-types": "^15.8.1",
